@@ -1,0 +1,133 @@
+[{
+    "_id": {
+      "$oid": "67fe041313b6d75e7dd157b4"
+    },
+    "doctor_url": "https://www.doctorspedia.co/doctor/dr-kh-nafiz-rahman",
+    "availability": [
+      "sun 06.00 PM - 09.00 PM",
+      "mon 06.00 PM - 09.00 PM",
+      "tue 06.00 PM - 09.00 PM",
+      "wed 06.00 PM - 09.00 PM",
+      "thu 06.00 PM - 09.00 PM",
+      "",
+      "sat 06.00 PM - 09.00 PM"
+    ],
+    "designation": "MBBS, BCS (Health), D-Ortho (BSMMU), AO Trauma (Fellow)",
+    "hospital_address": "R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka., Mirpur, Dhaka, 1216, Bangladesh",
+    "hospital_info": "Mirpur General Hospital and Diagnostic Center",
+    "name": "Dr. Kh. Nafiz Rahman",
+    "reg_no": "N/A",
+    "tags": [
+      "Regenerative Technique",
+      "Epidural Transformational Injection",
+      "Facetal Injection",
+      "Robotic Calipers / Injections",
+      "Neck and Back pain Clinic",
+      "Spine Conservative",
+      "Spine 3D Printing",
+      "Joint Pain Treatment",
+      "Endoscopic Disc Surgery",
+      "Back Pain",
+      "Neck Pain"
+    ],
+    "yoe": "16",
+    "hospital_url": "https://www.doctorspedia.co/hospital/mirpur-general-hospital-and-diagnostic-center",
+    "specialization": "Orthopedic Surgeon"
+  },
+  {
+    "_id": {
+      "$oid": "67fe041313b6d75e7dd157b5"
+    },
+    "doctor_url": "https://www.doctorspedia.co/doctor/prof-dr-akm-jahangir-alam",
+    "availability": [
+      "sun 06.00 PM - 08.00 PM",
+      "mon 06.00 PM - 08.00 PM",
+      "tue 06.00 PM - 08.00 PM",
+      "wed 06.00 PM - 08.00 PM",
+      "thu 06.00 PM - 08.00 PM",
+      "",
+      "sat 06.00 PM - 08.00 PM"
+    ],
+    "designation": "MBBS, DCM, MS (Ortho)",
+    "hospital_address": "R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka., Mirpur, Dhaka, 1216, Bangladesh",
+    "hospital_info": "Mirpur General Hospital and Diagnostic Center",
+    "name": "Prof. Dr. A.K.M. Jahangir Alam",
+    "reg_no": "N/A",
+    "tags": [
+      "Congenital and acquired deformity correction",
+      "Spinal Cord Injury Treatment",
+      "Keyhole-Sutureless Spinal surgeries",
+      "Spinal Rehabilitation Technique",
+      "Spine Conservative Management / Nonsurgical Technique",
+      "Spine Dynamic stabilisation",
+      "Non Fusional spine surgical Technique"
+    ],
+    "yoe": "24",
+    "hospital_url": "https://www.doctorspedia.co/hospital/mirpur-general-hospital-and-diagnostic-center",
+    "specialization": "Orthopedic Surgeon"
+  },
+  {
+    "_id": {
+      "$oid": "67fe041313b6d75e7dd157b6"
+    },
+    "doctor_url": "https://www.doctorspedia.co/doctor/dr-lt-col-md-mahbub-ali",
+    "availability": [
+      "sun 06.00 PM - 08.00 PM",
+      "mon 06.00 PM - 08.00 PM",
+      "tue 06.00 PM - 08.00 PM",
+      "wed 06.00 PM - 08.00 PM",
+      "thu 06.00 PM - 08.00 PM",
+      "",
+      "sat 06.00 PM - 08.00 PM"
+    ],
+    "designation": "MBBS, MS (Ortho Surgery)",
+    "hospital_address": "R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka., Mirpur, Dhaka, 1216, Bangladesh",
+    "hospital_info": "Mirpur General Hospital and Diagnostic Center",
+    "name": "Dr. Lt. Col. Md. Mahbub Ali",
+    "reg_no": "N/A",
+    "tags": [
+      "Robotic Calipers / Injections",
+      "Spine 3D Printing",
+      "Keyhole-Sutureless Spinal surgeries",
+      "Spine Dynamic stabilisation Non Fusional spine surgical Technique",
+      "Regenerative Technique Epidural Transforaminal Injection Facetal Injection",
+      "Spinal Rehabilitation Technique"
+    ],
+    "yoe": "15",
+    "hospital_url": "https://www.doctorspedia.co/hospital/mirpur-general-hospital-and-diagnostic-center",
+    "specialization": "Orthopedic Surgeon"
+  },
+  {
+    "_id": {
+      "$oid": "67fe041313b6d75e7dd157b7"
+    },
+    "doctor_url": "https://www.doctorspedia.co/doctor/dr-nurul-alam-siddique-pavel",
+    "availability": [
+      "sun 06.00 PM - 09.00 PM",
+      "mon 06.00 PM - 09.00 PM",
+      "tue 06.00 PM - 09.00 PM",
+      "wed 06.00 PM - 09.00 PM",
+      "thu 06.00 PM - 09.00 PM",
+      "",
+      "sat 06.00 PM - 09.00 PM"
+    ],
+    "designation": "MBBS (Dhaka), D-Ortho (NITOR), BCS (Health)",
+    "hospital_address": "R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka., Mirpur, Dhaka, 1216, Bangladesh",
+    "hospital_info": "Mirpur General Hospital and Diagnostic Center",
+    "name": "Dr. Nurul Alam Siddique Pavel",
+    "reg_no": "N/A",
+    "tags": [
+      "Facetal Injection",
+      "Robotic Calipers / Injections",
+      "Congenital and acquired deformity correction",
+      "Back Pain Treatment",
+      "Neck Pain Treatment",
+      "Spinal Cord Injury Treatment",
+      "General Orthopedic Clinic",
+      "Epidural Transforaminal Injection"
+    ],
+    "yoe": "14",
+    "hospital_url": "https://www.doctorspedia.co/hospital/mirpur-general-hospital-and-diagnostic-center",
+    "specialization": "Orthopedic Surgeon"
+  }
+]
