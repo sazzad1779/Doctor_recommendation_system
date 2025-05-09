@@ -22,6 +22,35 @@ contextualize_q_system_prompt = (
     "without the chat history. Do NOT answer the question, "
     "just reformulate it if needed and otherwise return it as is."
 )
+
+# # Normalize user input before retrieval
+# normalize_query_prompt = ChatPromptTemplate.from_messages([
+#     ("system", 
+#      "You are a smart medical assistant that helps interpret natural language symptom descriptions.\n"
+#      "Given the user's message, extract or infer the following:\n"
+#      "- Symptom (clear medical-style term)\n"
+#      "- Specialization (doctor type to treat this)\n"
+#      "- Location (if present)\n\n"
+#      "Return it in this format:\n"
+#      "{\n"
+#      "  \"symptom\": \"...\",\n"
+#      "  \"specialization\": \"...\",\n"
+#      "  \"location\": \"...\"\n"
+#      "}\n\n"
+#      "If any field is missing, leave it blank."
+#     ),
+#     ("human", "{input}")
+# ])
+# import json
+# def normalize_user_query(user_input: str, llm) -> dict:
+#     prompt = normalize_query_prompt.invoke({"input": user_input})
+#     response = llm.invoke(prompt)
+#     try:
+#         parsed = json.loads(response.content.strip())
+#     except Exception as e:
+#         print(f"[Error] Failed to parse LLM output: {e}")
+#         return {"symptom": "", "specialization": "", "location": ""}
+#     return parsed
 ## Setting Up Prompts
 contextualize_q_prompt = ChatPromptTemplate.from_messages([
     ("system", contextualize_q_system_prompt),
@@ -29,12 +58,6 @@ contextualize_q_prompt = ChatPromptTemplate.from_messages([
     ("human", "{input}"),
 ])
 
-# qa_prompt = ChatPromptTemplate.from_messages([
-#     ("system", "You are a helpful medical assistant helping users find the right doctor. Use the following context to answer the user's question. if you don't have any answer please truthfully say i don't have the information. Answer should be short and precise, don't need to elaborate any answer."),
-#     ("system", "Context: {context}"),
-#     MessagesPlaceholder(variable_name="chat_history"),
-#     ("human", "{input}")
-# ])
 qa_prompt = ChatPromptTemplate.from_messages([
     ("system", 
      "You are Genie, a helpful medical assistant that helps users find suitable doctors.\n"
@@ -48,7 +71,7 @@ qa_prompt = ChatPromptTemplate.from_messages([
      "Instructions:\n"
      "- Always respond conversationally\n"
      "- Be polite and concise\n"
-     "- Once you have all the information, return a list of doctors with: Name, Specialization, Hospital, Location, Availability\n"
+     "- Once you have all the information, return a list of doctors with: Name, Specialization, Hospital, Location, Availability, Hospital Information along with URL \n"
      "- If no doctor fits, say so.\n"
      "- Do not hallucinate. Use only the provided context.\n"
      "- If unsure, ask the user politely."),

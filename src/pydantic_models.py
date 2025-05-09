@@ -24,3 +24,6 @@ class DocumentInfo(BaseModel):
 
 class DeleteFileRequest(BaseModel):
     file_id: int
+    
+class DeleteDoctorRequest(BaseModel):
+    doctor_id: int

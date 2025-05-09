@@ -63,6 +63,12 @@ def delete_document_record(file_id):
     conn.close()
     return True
 
+def delete_doctor_record(doctor_id):
+    conn = get_db_connection()
+    conn.execute('DELETE FROM document_store WHERE id = ?', (doctor_id,))
+    conn.commit()
+    conn.close()
+    return True
 def get_all_documents():
     conn = get_db_connection()
     cursor = conn.cursor()
