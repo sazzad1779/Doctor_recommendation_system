@@ -27,7 +27,6 @@ def chat(query_input: QueryInput):
         "input": query_input.question,
         "chat_history": chat_history
     })['answer']
-    
     insert_application_logs(session_id, query_input.question, answer, query_input.model.value)
     logging.info(f"Session ID: {session_id}, AI Response: {answer}")
     return QueryResponse(answer=answer, session_id=session_id, model=query_input.model)
