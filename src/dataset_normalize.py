@@ -75,51 +75,74 @@ def normalize_doctor_entry(entry):
     # Normalize years of experience
     entry["yoe"] = int(entry["yoe"]) if entry["yoe"].isdigit() else None
 
-    return entry
+    return preprocess_doc_info_for_vector_db(entry)
+def preprocess_doc_info_for_vector_db(doc):
+    text = (
+        f"{doc['name']} is a {doc['specialization']} with {doc['yoe']} years of experience. "
+        f"He holds the qualifications {doc['designation']}. "
+        f"Currently practicing at {doc['hospital_info']} located at {doc['hospital_address']}. "
+        f"Availability: {'; '.join(doc['availability'])}. "
+        f"Expertise includes {doc['tags']}."
+    )
 
-# Example usage
-sample_doc = {
-  "_id": {
-    "$oid": "67fe06cf13b6d75e7dd15d48"
-  },
-  "doctor_url": "https://www.doctorspedia.co/doctor/dr-md-forhad-jamal",
-  "availability": [
-    "sun 06.00 PM - 09.00 PM",
-    "mon 06.00 PM - 09.00 PM",
-    "tue 06.00 PM - 09.00 PM",
-    "wed 06.00 PM - 09.00 PM",
-    "thu 06.00 PM - 09.00 PM",
-    "",
-    "sat 06.00 PM - 09.00 PM"
-  ],
-  "designation": "MBBS, FCPS(Medicine), MD(Cardiology)",
-  "hospital_address": "C-287/2-3 , Bishwa Road, Khilgaon, Dhaka, 1219, Bangladesh",
-  "hospital_info": "Khidmah Hospital Private Limited",
-  "name": "Dr. Md. Forhad Jamal",
-  "reg_no": "N/A",
-  "tags": [
-    "Angioplasty",
-    "Cardioversion",
-    "Non-Invasive Cardiology",
-    "BP Monitoring",
-    "Echocardiography",
-    "Aortic Valve Surgery",
-    "Chest Pain",
-    "ECHO",
-    "Heart Disease",
-    "Coronary",
-    "Heart Attacks",
-    "Dyslipidemia",
-    "Heart Valve Disease",
-    "Blood Pressure",
-    "Stress",
-    "Stenting",
-    "Color doppler"
-  ],
-  "yoe": "18",
-  "hospital_url": "https://www.doctorspedia.co/hospital/khidmah-hospital-private-limited",
-  "specialization": "Cardiologist (Heart)"
-}
+    return {
+        "id": doc["_id"],
+        "text": text,
+        "metadata": {
+            "name": doc["name"],
+            "specialization": doc["specialization"],
+            "yoe": doc["yoe"],
+            "tags": [t.strip() for t in doc["tags"].split(",")],
+            "designation": doc["designation"],
+            "hospital": doc["hospital_info"],
+            "hospital_address": doc["hospital_address"],
+            "availability": doc["availability"]
+        }
+    }
+if __name__ == "__main__":
+    # Example usage
+    sample_doc = {
+    "_id": {
+        "$oid": "67fe06cf13b6d75e7dd15d48"
+    },
+    "doctor_url": "https://www.doctorspedia.co/doctor/dr-md-forhad-jamal",
+    "availability": [
+        "sun 06.00 PM - 09.00 PM",
+        "mon 06.00 PM - 09.00 PM",
+        "tue 06.00 PM - 09.00 PM",
+        "wed 06.00 PM - 09.00 PM",
+        "thu 06.00 PM - 09.00 PM",
+        "",
+        "sat 06.00 PM - 09.00 PM"
+    ],
+    "designation": "MBBS, FCPS(Medicine), MD(Cardiology)",
+    "hospital_address": "C-287/2-3 , Bishwa Road, Khilgaon, Dhaka, 1219, Bangladesh",
+    "hospital_info": "Khidmah Hospital Private Limited",
+    "name": "Dr. Md. Forhad Jamal",
+    "reg_no": "N/A",
+    "tags": [
+        "Angioplasty",
+        "Cardioversion",
+        "Non-Invasive Cardiology",
+        "BP Monitoring",
+        "Echocardiography",
+        "Aortic Valve Surgery",
+        "Chest Pain",
+        "ECHO",
+        "Heart Disease",
+        "Coronary",
+        "Heart Attacks",
+        "Dyslipidemia",
+        "Heart Valve Disease",
+        "Blood Pressure",
+        "Stress",
+        "Stenting",
+        "Color doppler"
+    ],
+    "yoe": "18",
+    "hospital_url": "https://www.doctorspedia.co/hospital/khidmah-hospital-private-limited",
+    "specialization": "Cardiologist (Heart)"
+    }
 
-normalized = normalize_doctor_entry(sample_doc)
-print(json.dumps(normalized, indent=2))
+    normalized = normalize_doctor_entry(sample_doc)
+    print(json.dumps(normalized, indent=2))
