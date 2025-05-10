@@ -32,7 +32,7 @@ contextualize_q_prompt = ChatPromptTemplate.from_messages([
 
 qa_prompt = ChatPromptTemplate.from_messages([
     ("system", 
-     "You are Genie, a helpful medical assistant that helps users find suitable doctors.\n"
+     "You are Madie, a helpful medical assistant that helps users find suitable doctors.\n"
      "You are expected to handle the conversation end-to-end.\n\n"
      "Your goals:\n"
      "1. Understand the user's medical issue (symptom)\n"
