@@ -1,7 +1,142 @@
 # Doctor_recommendation_system
 
-### dataset Normalize 
-1. availability field normalize:
+### Technical Features
+
+1. **Langchain-Based Modular Architecture**
+   Utilizes Langchain to build structured and composable chains (retrieval, prompt templates, document chains).
+
+2. **LangSmith Integration**
+   Enables observability, debugging, and tracing of chains, prompt flows, and LLM responses for continuous improvement.
+
+3. **Query Normalization Pipeline**
+   Custom LLM-based normalization function that extracts `symptom`, `specialization`, and `location` from natural user input.
+
+4. **Contextual RAG Pipeline**
+   Combines history-aware question reformulation with document retrieval and response synthesis via `create_retrieval_chain`.
+
+5. **Custom Symptom Clarification Logic**
+   Integrates symptom completeness checks before retrieval; triggers follow-up questions when information is missing.
+
+6. **Preprocessing and Indexing Enhancements**
+   Knowledge base is preprocessed to extract medical metadata (e.g., symptoms, specialties) for better recall and ranking.
+
+7. **Vectorstore with Chroma (Pluggable)**
+   Uses Chroma as a vector database (can be replaced with Qdrant, Weaviate, etc.) with metadata filtering for precise search.
+
+8. **Caching with SQLite**
+   Implements Langchain’s `SQLiteCache` to reduce redundant LLM calls and improve latency for repeated queries.
+
+9. **Prompt Engineering with ChatPromptTemplate**
+   Dynamically constructed prompt templates using `ChatPromptTemplate` and `MessagesPlaceholder` for multi-turn awareness.
+
+---
+
+###  How to Run
+
+#### 1. **Install Dependencies**
+
+Make sure you have Python 3.10.9+ installed. Then install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+> Make sure `langchain`, `langsmith`, `chromadb`, and any LLM SDKs (e.g., `google-generativeai`, `openai`) are included in your `requirements.txt`.
+
+---
+
+#### 2. **Set Up Environment Variables**
+
+Create a `.env` file or set the following environment variables:
+
+```env
+GOOGLE_API_KEY=your-google-api-key   # or Gemini api key
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY=your-langsmith-api-key
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_PROJECT="Doctor_recommendation_system"
+```
+
+---
+
+#### 3. **Start the App (Basic Script Invocation)**
+
+If your main entry point is a script (e.g., `main.py`):
+
+```bash
+python main.py
+```
+---
+
+## 🧠 Explanation of Design Decisions
+
+This section outlines the key architectural and implementation choices made in the development of the medical consultation assistant. These decisions prioritize accuracy, maintainability, and a robust user experience.
+
+**1. RAG Architecture for Dynamic Context Injection**
+
+* **Decision:** We employ a Retrieval-Augmented Generation (RAG) architecture.
+* **Rationale:** Medical queries necessitate access to domain-specific and current information regarding doctors and hospitals. RAG ensures that the Large Language Model (LLM) can ground its responses in this pre-indexed data, mitigating the risk of generating inaccurate or fabricated information (hallucinations). Furthermore, this approach decouples the knowledge base from the LLM, allowing for independent updates to the doctor and hospital data without requiring retraining of the language model.
+
+**2. Query Normalization Before Retrieval**
+
+* **Decision:** Before performing retrieval from the vector database, user queries undergo a normalization step powered by a dedicated LLM.
+* **Rationale:** Users often describe their symptoms using vague or colloquial language. The normalization process aims to extract structured information from these free-form queries, specifically identifying:
+    * `symptom`: This structured field is used as the primary input for retrieving relevant information from the vector database.
+    * `specialization`: This extracted information helps narrow down the appropriate medical specialties.
+    * `location`: This extracted information allows for location-aware responses, such as suggesting nearby doctors or hospitals.
+    This structured extraction ensures more consistent and higher-recall searches against the vector database.
+
+**3. Conversation-Aware Retrieval**
+
+* **Decision:** We utilize `create_history_aware_retriever` from the Langchain library to implement conversation-aware retrieval.
+* **Rationale:** This approach is crucial for handling multi-turn dialogues effectively. It ensures that:
+    * 
+    * Follow-up questions (e.g., "It's still my stomach...") are interpreted within the context of the previous turns in the conversation.
+    * For each turn, a standalone query is generated that incorporates the conversation history before performing vector retrieval.
+    This capability significantly improves the naturalness and coherence of the assistant's interactions.
+
+**4. Prompt Engineering with Template Injection**
+
+* **Decision:** We leverage `ChatPromptTemplate` and `MessagesPlaceholder` for dynamic prompt construction.
+* **Rationale:** This methodology allows for the modular and dynamic injection of relevant information into the prompt sent to the LLM for response generation. Specifically, it enables the inclusion of:
+    * The extracted `symptom`, `location`, and `specialization`.
+    * The retrieved context from the vector database.
+    This ensures that the LLM has access to both the user's explicit intent (the normalized query) and the relevant background information when formulating its response.
+
+**5. Symptom Clarification Logic**
+
+* **Decision:** We implement a preliminary check to validate if a clear symptom has been successfully extracted during the normalization step. If not, the assistant prompts the user for further clarification.
+* **Rationale:** This proactive step prevents unnecessary and potentially ineffective vector searches based on ambiguous or incomplete user input. By ensuring a clear symptom is identified first, we optimize resource utilization and improve the overall user experience by guiding them towards providing the necessary information. This is implemented with a simple conditional check before invoking the retriever.
+
+**6. RunnableLambda for Chain Wrapping**
+
+* **Decision:** We utilize `RunnableLambda` from Langchain to wrap the core RAG chain with preprocessing logic.
+* **Rationale:** This allows us to cleanly separate the "thinking" process (i.e., the symptom extraction and normalization) from the "acting" process (i.e., the retrieval of information and the generation of the response). `RunnableLambda` enables the execution of custom logic, such as the normalization step and the symptom clarification fallback, before the input is passed to the main RAG chain. This modular design enhances code organization and maintainability.
+
+**7. LangSmith for Observability**
+
+* **Decision:** We have integrated LangSmith into the system.
+* **Rationale:** LangSmith provides critical observability into the behavior of the Langchain components. This integration enables:
+    * Detailed tracing of the entire chain execution flow, from query normalization to information retrieval and response generation.
+    * Effective debugging of prompt failures, query mismatches, or unexpected behavior at any stage of the process.
+    * Valuable insights into user interactions over time, allowing for continuous improvement of the system's performance and user experience.
+
+**8. Modular Vectorstore Layer**
+
+* **Decision:** While we initially implemented ChromaDB for its ease of use in local development, the vectorstore access is designed as a modular layer (encapsulated in `src/chroma_utils.py`).
+* **Rationale:** This architectural choice provides flexibility and future-proofing. It allows for seamless swapping of the underlying vector database (e.g., to Weaviate, Qdrant, or Pinecone) without requiring significant modifications to the core logic of the application. Furthermore, this modularity supports the implementation of metadata filtering, enabling us to combine searches based on both the extracted symptom and the user's specified location.
+
+**9. Caching with SQLiteCache**
+
+* **Decision:** We have enabled caching using Langchain's `SQLiteCache`.
+* **Rationale:** Caching helps to reduce the number of redundant LLM calls for identical inputs. This is particularly beneficial during the testing phase and in scenarios where users might repeatedly ask for clarification on their symptoms. The caching mechanism is designed to be pluggable, allowing for the adoption of other cache backends if the need arises.
+
+This detailed explanation provides insight into the rationale behind the key design decisions, highlighting our commitment to building a robust, accurate, and maintainable medical consultation assistant.
+
+
+
+### Dataset Normalize 
+**1. availability field normalize:**
 ```python
 # convert to simplified format
 ## dataset format
@@ -106,9 +241,15 @@
 }
 
 ```
+**2. Insert specialization:**
 
-## Optimization scope
-This doctor recommendation system, while functional, has several areas identified for potential optimization and enhancement:
+ Added some specialization based on tags and designation
+
+
+
+
+### Optimization scope
+This system, while functional, has several areas identified for potential optimization and enhancement:
 
 1.  **Intelligent Symptom Narrowing and Conversational Flow:**
     * Currently, the system might directly query the retrieval system based on the initial user input. To improve the conversational experience and refine the search, future development will focus on implementing a mechanism to first **narrow down the user's symptoms and other specifications through conversational turns** before triggering the doctor retrieval. This could involve asking clarifying questions to better understand the user's needs.
