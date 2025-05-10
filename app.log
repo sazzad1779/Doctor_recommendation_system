@@ -1,0 +1,1556 @@
+ERROR:fastapi:Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: string, User Query: Hi, Model: gemini-2.0-flash
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:root:Session ID: string, AI Response: Hi, How can I help you?
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:8 changes detected
+INFO:root:Session ID: None, User Query: i have chest pain, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: bbaad525-9a1a-46b3-9a8f-078b100266fb, AI Response: I am an AI assistant specialized in orthopedic surgeons. I don't have the information about chest pain.
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:6 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:76 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: None, User Query: i have chest pain which doctor should i go, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: 6bbfdb51-1651-4c58-85b1-27dac79ad579, AI Response: Sorry, I don't have the information about doctors who treat chest pain.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query:  which doctor should i go for pain, Model: gemini-2.0-flash
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: Based on your needs, I would recommend considering both Dr. Kh. Nafiz Rahman and Dr. Md. Ashraful Alam. Both are Orthopedic Surgeons with experience in pain management.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, User Query:  Can you give me more information of them, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: I can provide more details on Dr. Kh. Nafiz Rahman and Dr. A.K.M. Jahangir Alam. Would you like to know more about their availability, hospital details, specialization, or something else?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, User Query: i want to know about their availability, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: Dr. Kh. Nafiz Rahman is available from Sunday to Thursday and Saturday from 06.00 PM to 09.00 PM.
+Prof. Dr. A.K.M. Jahangir Alam is available from Sunday to Saturday (except Friday) from 06.00 PM to 08.00 PM.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, User Query: where they sit?, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: Both Dr. Kh. Nafiz Rahman and Prof. Dr. A.K.M. Jahangir Alam are available at Mirpur General Hospital and Diagnostic Center, Dhaka. The address is R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka, 1216, Bangladesh.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, User Query: i want doctors who orthopedics and sit in uttara popular, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: I don't have the information you're looking for about orthopedic doctors in Uttara Popular.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, User Query: i want doctors who sit in uttara popular, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: Sorry, I don't have the information about doctors who sit in Popular Diagnostic Center, Uttara.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, User Query: can you provide doctor information of popular diagonistic center, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: I am sorry, I do not have access to the information about doctors of Popular Diagnostic Center.
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, User Query: can you provide doctor information of popular diagonistic center, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: 233081f7-5122-4b57-bffc-4f4ddf87dc06, AI Response: I'm sorry, but I do not have access to that information.
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: None, User Query: Hi, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: cd95b97a-4535-4f59-9a58-cfb99c4934bf, AI Response: Hi there! How can I help you today?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: i have some pain, Model: gemini-2.0-flash
+INFO:root:Session ID: 4dbc62d4-a7f4-4103-92b4-b7912b197d06, AI Response: I'm sorry to hear that you're experiencing pain. To help me find the right doctor for you, could you please tell me:
+
+1.  Where is the pain located?
+2.  Do you know what type of doctor you need, or would you like me to help you figure that out based on your symptoms?
+3.  What is your current location?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: i have chest pain, Model: gemini-2.0-flash
+INFO:root:Session ID: 14490614-40fb-427f-a9dd-3b6c35509389, AI Response: I am sorry to hear you are having chest pain. Can you tell me your location so I can find you a suitable doctor?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: i live in mirpur, Model: gemini-2.0-flash
+INFO:root:Session ID: d4056cfc-82cb-4318-9504-7cfee4d1d315, AI Response: Okay, I have your location as Mirpur. To find the best doctor for you, could you please describe your medical issue or symptoms?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: i have joint pain, Model: gemini-2.0-flash
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: I'm sorry to hear about your joint pain. To help me find the right doctor for you, could you tell me your location?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, User Query: i am in mirpur, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: Thanks. Given your joint pain and location in Mirpur, I can recommend an Orthopedic Surgeon.
+
+Here are a couple of options:
+
+1.  **Dr. Kh. Nafiz Rahman:** Specializes in Joint Pain Treatment, among other treatments. He is available at Mirpur General Hospital and Diagnostic Center, from Sunday to Saturday, 06.00 PM - 09.00 PM
+2.  **Prof. Dr. A.K.M. Jahangir Alam:** Specializes in Spinal. He is available at Mirpur General Hospital and Diagnostic Center, from Sunday to Saturday, 06.00 PM - 08.00 PM
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, User Query: i am in uttara, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: I see. Unfortunately, I don't have doctors in my database in Uttara. Would you like me to search in a different location?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, User Query: i need doctor of Mirpur General Hospital and Diagnostic Center, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: Okay! And what is the symptom or medical issue you're seeking help with?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, User Query: already i said my symptom, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: My apologies, I see that you mentioned joint pain.
+
+Here are a couple of options at Mirpur General Hospital and Diagnostic Center:
+
+1. **Dr. Kh. Nafiz Rahman:** Specializes in Joint Pain Treatment, among other treatments. He is available from Sunday to Saturday, 06.00 PM - 09.00 PM
+2. **Dr. Nurul Alam Siddique Pavel:** Specializes in Back Pain Treatment, Neck Pain Treatment, Spinal Cord Injury Treatment, among other treatments. He is available from Sunday to Saturday, 06.00 PM - 09.00 PM
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, User Query: i need the most experience one, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: Okay, I can help you with that!
+
+Between Dr. Kh. Nafiz Rahman and Dr. Nurul Alam Siddique Pavel at Mirpur General Hospital and Diagnostic Center, the doctor with more experience is:
+
+*   **Dr. Kh. Nafiz Rahman:** (16 years of experience)
+
+I hope this helps!
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, User Query: when Dr. Kh. Nafiz Rahman is avaialble ?, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: Dr. Kh. Nafiz Rahman is available at Mirpur General Hospital and Diagnostic Center from Sunday to Saturday, 06.00 PM - 09.00 PM
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, User Query: will she available at friday ?, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 62e21aaa-0dc0-4f4c-bfb2-d9fe4c979b82, AI Response: Yes, Dr. Kh. Nafiz Rahman is available on Fridays from 06.00 PM to 09.00 PM at Mirpur General Hospital and Diagnostic Center.
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:8 changes detected
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: i want to apoint a doctor, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, AI Response: I can help you with that. Could you please tell me what medical issue or symptoms you are experiencing?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, User Query: I am feeling joint pain, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, AI Response: I see. To find the right doctor for you, I'll need a bit more information.
+
+1.  Could you tell me your current location?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, User Query: Mirpur, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, AI Response: Okay, and just to confirm, are you looking for a specialist in joint pain, such as an orthopedic surgeon or rheumatologist?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, User Query: yes, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, AI Response: Great. Based on your symptoms (joint pain) and location (Mirpur), I can recommend the following doctors:
+
+1.  **Dr. Kh. Nafiz Rahman:**
+    *   **Specialization:** Orthopedic Surgeon
+    *   **Hospital:** Mirpur General Hospital and Diagnostic Center, Mirpur, Dhaka
+    *   **Location:** R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka, 1216, Bangladesh
+    *   **Availability:** Saturday to Thursday: 06:00 PM - 09:00 PM; Friday: Off
+2.  **Dr. Lt. Col. Md. Mahbub Ali:**
+    *   **Specialization:** Orthopedic Surgeon
+    *   **Hospital:** Mirpur General Hospital and Diagnostic Center, Mirpur, Dhaka
+    *   **Location:** R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka, 1216, Bangladesh
+    *   **Availability:** Saturday to Thursday: 06:00 PM - 08:00 PM; Friday: Off
+
+Would you like to book an appointment with either of them?
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:7 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, User Query: any other doctor ?, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: 9c74cad3-0c13-4a2d-a520-6c611f6b09f6, AI Response: I am sorry. I do not have information about other doctors that fit your criteria.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: I live in mirpur and i have joint pain., Model: gemini-2.0-flash
+INFO:root:Session ID: e389e9c0-09b2-4995-900c-f27c860d0c45, AI Response: Okay, I understand you're experiencing joint pain and you're located in Mirpur. Based on this, I can recommend a couple of orthopedic surgeons who specialize in joint pain.
+
+Here are the doctors:
+1. **Dr. Kh. Nafiz Rahman:**
+   - **Specialization:** Orthopedic Surgeon
+   - **Hospital:** Mirpur General Hospital and Diagnostic Center
+   - **Location:** R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka, 1216, Bangladesh
+   - **Availability:** Saturday to Thursday: 06:00 PM - 09:00 PM; Friday: Off
+   - **Expertise:** Joint Pain Treatment
+
+2. **Dr. Lt. Col. Md. Mahbub Ali:**
+   - **Specialization:** Orthopedic Surgeon
+   - **Hospital:** Mirpur General Hospital and Diagnostic Center
+   - **Location:** R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka, 1216, Bangladesh
+   - **Availability:** Saturday to Thursday: 06:00 PM - 08:00 PM; Friday: Off
+   - **Expertise:** Spinal Rehabilitation Technique
+
+Mirpur General Hospital and Diagnostic Center is located at R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka.
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:9 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: None, User Query: I live in mirpur and i have joint pain., Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 322a9d0d-485b-4c90-b747-05ed6250f766, AI Response: Okay. I can help you find an Orthopedic Surgeon in Mirpur for your joint pain.
+
+Based on your symptoms and location, here are the doctors that I found:
+
+1.  **Dr. Kh. Nafiz Rahman**
+    *   **Specialization:** Orthopedic Surgeon
+    *   **Hospital:** Mirpur General Hospital and Diagnostic Center (https://www.doctorspedia.co/hospital/mirpur-general-hospital-and-diagnostic-center)
+    *   **Location:** R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka., Mirpur, Dhaka, 1216, Bangladesh
+    *   **Availability:** Saturday to Thursday: 06:00 PM - 09:00 PM; Friday: Off
+
+2.  **Dr. Lt. Col. Md. Mahbub Ali**
+    *   **Specialization:** Orthopedic Surgeon
+    *   **Hospital:** Mirpur General Hospital and Diagnostic Center (https://www.doctorspedia.co/hospital/mirpur-general-hospital-and-diagnostic-center)
+    *   **Location:** R#10, H#16, Rupnogor Residential Area, Beside of Monipur School), Mirpur, Dhaka., Mirpur, Dhaka, 1216, Bangladesh
+    *   **Availability:** Saturday to Thursday: 06:00 PM - 08:00 PM; Friday: Off
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:6 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: None, User Query: i need appoint a doc, Model: gemini-2.0-flash
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: None, User Query: i need appoint a doc, Model: gemini-2.0-flash
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: None, User Query: what is 2+2?, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: dfd1135c-51cd-4ae3-81a7-fee8a2ca59c7, AI Response: That's an easy one! 2 + 2 = 4
+
+I am actually a medical assistant that can help you find a suitable doctor. Are you looking for a doctor? If so, could you tell me what medical issue you're experiencing and your location?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: dfd1135c-51cd-4ae3-81a7-fee8a2ca59c7, User Query: add 5, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: dfd1135c-51cd-4ae3-81a7-fee8a2ca59c7, AI Response: Okay! So, 2 + 2 + 5 = 9
+
+I am actually a medical assistant that can help you find a suitable doctor. Are you looking for a doctor? If so, could you tell me what medical issue you're experiencing and your location?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: dfd1135c-51cd-4ae3-81a7-fee8a2ca59c7, User Query: i need an appoinment of a doctor, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: dfd1135c-51cd-4ae3-81a7-fee8a2ca59c7, AI Response: I can help you with that. First, can you tell me what medical issue you are experiencing? And where are you located?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: dfd1135c-51cd-4ae3-81a7-fee8a2ca59c7, User Query: i live in dhaka, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: dfd1135c-51cd-4ae3-81a7-fee8a2ca59c7, AI Response: Okay, and what medical issue are you experiencing?
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:45 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:9 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:41 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:root:Session ID: None, User Query: Hi, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: 1d091884-c337-4997-b70e-22d1d5c992cc, AI Response: Hi there! I'm Madie, your virtual medical assistant. I can help you find a suitable doctor. To start, could you please tell me what medical issue you're experiencing?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 1d091884-c337-4997-b70e-22d1d5c992cc, User Query: Hi, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: 1d091884-c337-4997-b70e-22d1d5c992cc, AI Response: Hi there! I'm Madie, your virtual medical assistant. I can help you find a suitable doctor. To start, could you please tell me what medical issue you're experiencing?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: Hi, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: 04df3608-5cae-4838-8a51-2c81d289ee5b, AI Response: Hi there! I'm Madie, your virtual medical assistant. I can help you find a suitable doctor. To start, could you please tell me what medical issue you're experiencing?
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: 04df3608-5cae-4838-8a51-2c81d289ee5b, User Query: what is your name ?, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: 04df3608-5cae-4838-8a51-2c81d289ee5b, AI Response: My name is Madie, your virtual medical assistant.
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: None, User Query: Hello, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:watchfiles.main:4 changes detected
+INFO:root:Session ID: 4cc59138-ff21-42e9-bfef-c147d41d8e60, AI Response: Hi there! I'm Madie, your virtual medical assistant. I can help you find a suitable doctor. To start, could you please describe the medical issue or symptom you're experiencing?
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: None, User Query: Hello, Model: gemini-2.0-flash
+INFO:root:Session ID: f3ba01a2-1077-4317-996e-9285aa47de4c, AI Response: Hi there! How can I help you find a doctor today?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: None, User Query: Hello, Model: gemini-2.0-flash
+INFO:root:Session ID: f4e381bc-a20d-4687-a725-5965dada8aae, AI Response: Hi there! How can I help you find a doctor today?
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: None, User Query: Hello, Model: gemini-2.0-flash
+INFO:root:Session ID: c452eb2b-1428-41e0-a4f5-7a718d9f8496, AI Response: Hi there! How can I help you find a doctor today?
+INFO:watchfiles.main:3 changes detected
+INFO:root:Session ID: None, User Query: Hello!, Model: gemini-2.0-flash
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, AI Response: Hi there! I'm Madie, your virtual medical assistant. I can help you find a suitable doctor. To start, could you please tell me what medical issue you're experiencing or what kind of doctor you're looking for?
+
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, User Query: last four days, i m facing some issue in my back. something like little bit pain, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, AI Response: Okay, I understand you've been experiencing some back pain for the last four days. To help me find the right doctor for you, could you tell me your location?
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, User Query: right now i am in uttara, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, AI Response: Got it. Since you're experiencing back pain and you're in Uttara, I would recommend an Orthopedist.
+
+Here are a few options for you:
+
+1.  **Dr. Ananta Kumar Bhakta**
+
+    *   **Specialization:** Orthopedist
+    *   **Hospital:** Popular Diagnostic Centre Ltd. | Uttara
+    *   **Location:** House # 21 ,Road # 7 , Sector # 4, Uttara, Airport, Dhaka, 1230, Bangladesh
+    *   **Availability:** Sun, Mon, Tue, Wed, Thu, Sat 04.00 PM - 06.00 PM
+    *   **Hospital Information:** [https://www.doctorspedia.co/hospital/popular-diagnostic-centre-ltd-uttara](https://www.doctorspedia.co/hospital/popular-diagnostic-centre-ltd-uttara)
+2.  **Prof. Dr. Md. Abdur Rob**
+
+    *   **Specialization:** Orthopedist
+    *   **Hospital:** Ibn Sina Diagnostic Center | Uttara
+    *   **Location:** House # 52, Road # 9/A, Sector # 7, Uttara, Dhaka, Bangladesh
+    *   **Availability:** Sun 05.30 PM - 08.30 PM, Mon 05.30 PM - 08.30 PM, Tue 05.30 PM - 08.30 PM, Wed 05.30 PM - 08.30 PM, Thu 05.30 PM - 08.30 PM, Sat 05.30 PM - 08.30 PM
+    *   **Hospital Information:** [https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara](https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara)
+3.  **Dr. Md. Ahsan Majid**
+
+    *   **Specialization:** Orthopedist
+    *   **Hospital:** Ibn Sina Diagnostic Center | Uttara
+    *   **Location:** House#52 Gareeb-e-Nawaz Ave, Uttara Purbo, Dhaka, 1230, Bangladesh
+    *   **Availability:** Sun, Tue, Wed, Thu, Sat 05.00 PM - 07.00 PM
+    *   **Hospital Information:** Ibn Sina Diagnostic Center | Uttara
+
+I hope this helps! Let me know if you have any other questions.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, User Query: ibn sina will be more suitable for me. but i want to most senior doctor., Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, AI Response: Understood. Since you prefer Ibn Sina and want the most senior doctor, here's a recommendation:
+
+*   **Prof. Dr. Abul Kalam Azad**
+
+    *   **Specialization:** Orthopedist
+    *   **Hospital:** Ibn Sina Diagnostic Center | Uttara
+    *   **Location:** House#52 Gareeb-e-Nawaz Ave, Uttara Purbo, Dhaka, 1230, Bangladesh
+    *   **Availability:** sun 09.00 AM - 12.00 PM, mon 09.00 AM - 12.00 PM, tue 09.00 AM - 12.00 PM, wed 09.00 AM - 12.00 PM, thu 09.00 AM - 12.00 PM, sat 09.00 AM - 12.00 PM
+    *   **Hospital Information:** Ibn Sina Diagnostic Center | Uttara
+    *   **Hospital URL:** [https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara](https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara)
+
+He has 25 years of experience.
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, User Query: okay, can you give me the address ?, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, AI Response: Certainly! Here is the address for Prof. Dr. Abul Kalam Azad at Ibn Sina Diagnostic Center in Uttara:
+
+House#52 Gareeb-e-Nawaz Ave, Uttara Purbo, Dhaka, 1230, Bangladesh
+INFO:watchfiles.main:5 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, User Query: i want to some other compare with him . ibn sina most experience 3 doctor compairison include him, Model: gemini-2.0-flash
+INFO:watchfiles.main:2 changes detected
+INFO:root:Session ID: 079a02cc-28a3-48a2-a440-e756935788fe, AI Response: Okay, I can provide a comparison of the three most experienced Orthopedists at Ibn Sina Diagnostic Center in Uttara, including Dr. Abul Kalam Azad:
+
+1.  **Prof. Dr. Abul Kalam Azad**
+
+    *   **Years of Experience:** 25
+    *   **Specialization:** Orthopedist
+    *   **Hospital:** Ibn Sina Diagnostic Center | Uttara
+    *   **Location:** House#52 Gareeb-e-Nawaz Ave, Uttara Purbo, Dhaka, 1230, Bangladesh
+    *   **Availability:** sun 09.00 AM - 12.00 PM, mon 09.00 AM - 12.00 PM, tue 09.00 AM - 12.00 PM, wed 09.00 AM - 12.00 PM, thu 09.00 AM - 12.00 PM, sat 09.00 AM - 12.00 PM
+    *   **Tags**: Robotic Calipers / Injections, Spine 3D Printing, Keyhole-Sutureless Spinal surgeries, Spine Dynamic stabilisation Non Fusional spine surgical Technique, Regenerative Technique Epidural Transforaminal Injection Facetal Injection, Spinal Rehabilitation Technique
+    *   **Hospital URL:** [https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara](https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara)
+2.  **Dr. Md. Ahsan Majid**
+
+    *   **Years of Experience:** 17
+    *   **Specialization:** Orthopedist
+    *   **Hospital:** Ibn Sina Diagnostic Center | Uttara
+    *   **Location:** House#52 Gareeb-e-Nawaz Ave, Uttara Purbo, Dhaka, 1230, Bangladesh
+    *   **Availability:** Sun, Tue, Wed, Thu, Sat 05.00 PM - 07.00 PM
+    *   **Tags:** Congenital and acquired deformity correction, Spinal Cord Injury Treatment, Keyhole-Sutureless Spinal surgeries, Spinal Rehabilitation Technique, Spine Conservative Management / Nonsurgical Technique, Spine Dynamic stabilisation, Non Fusional spine surgical Technique
+    *   **Hospital URL:** [https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara](https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara)
+3.  **Dr. Md. Motiur Rahman**
+
+    *   **Years of Experience:** Unknown
+    *   **Specialization:** Orthopedist
+    *   **Hospital:** Ibn Sina Diagnostic Center | Uttara
+    *   **Location:** House#52 Gareeb-e-Nawaz Ave, Uttara Purbo, Dhaka, 1230, Bangladesh
+    *   **Availability:** Sun to Sat 07.00 PM - 10.00 PM
+    *   **Hospital URL:** [https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara](https://www.doctorspedia.co/hospital/ibn-sina-diagnostic-center-uttara)
+
+Hopefully, this comparison helps you make a decision!
+INFO:watchfiles.main:5 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:41 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
