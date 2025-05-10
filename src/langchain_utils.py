@@ -5,7 +5,7 @@ from langchain.chains import create_history_aware_retriever, create_retrieval_ch
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from src.chroma_utils import vectorstore
 # from src.prompt import contextualize_q_system_prompt
-## setup cache system
+
 from langchain.globals import set_llm_cache
 from langchain_community.cache import SQLiteCache
 set_llm_cache(SQLiteCache(database_path=".langchain_cache.db"))
@@ -15,42 +15,14 @@ retriever = vectorstore.as_retriever(search_kwargs={"k": 2})
 ##Output Parser
 output_parser = StrOutputParser()
 
-contextualize_q_system_prompt = (
-    "Given a chat history and the latest user question "
-    "which might reference context in the chat history, "
-    "formulate a standalone question which can be understood "
-    "without the chat history. Do NOT answer the question, "
-    "just reformulate it if needed and otherwise return it as is."
-)
+contextualize_q_system_prompt ="""
+ Given a chat history and the latest user question, identify the underlying medical issue the user is describing.
+ Extract any other relevant info (e.g., location, general question). 
+ Even if the user's language is general, try to infer potential medical specializations or more specific keywords related to their problem.
+ Formulate a standalone question that is specific enough to effectively search for relevant doctors, without relying on the chat history.
+ Do NOT answer the question, just reformulate it if needed and otherwise return it as is.
+"""
 
-# # Normalize user input before retrieval
-# normalize_query_prompt = ChatPromptTemplate.from_messages([
-#     ("system", 
-#      "You are a smart medical assistant that helps interpret natural language symptom descriptions.\n"
-#      "Given the user's message, extract or infer the following:\n"
-#      "- Symptom (clear medical-style term)\n"
-#      "- Specialization (doctor type to treat this)\n"
-#      "- Location (if present)\n\n"
-#      "Return it in this format:\n"
-#      "{\n"
-#      "  \"symptom\": \"...\",\n"
-#      "  \"specialization\": \"...\",\n"
-#      "  \"location\": \"...\"\n"
-#      "}\n\n"
-#      "If any field is missing, leave it blank."
-#     ),
-#     ("human", "{input}")
-# ])
-# import json
-# def normalize_user_query(user_input: str, llm) -> dict:
-#     prompt = normalize_query_prompt.invoke({"input": user_input})
-#     response = llm.invoke(prompt)
-#     try:
-#         parsed = json.loads(response.content.strip())
-#     except Exception as e:
-#         print(f"[Error] Failed to parse LLM output: {e}")
-#         return {"symptom": "", "specialization": "", "location": ""}
-#     return parsed
 ## Setting Up Prompts
 contextualize_q_prompt = ChatPromptTemplate.from_messages([
     ("system", contextualize_q_system_prompt),
@@ -79,7 +51,6 @@ qa_prompt = ChatPromptTemplate.from_messages([
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{input}")
 ])
-
 
 def get_rag_chain(model_name:str="gemini-2.0-flash",model_provider:str="google_genai"):
     llm = init_chat_model(model=model_name,model_provider=model_provider)

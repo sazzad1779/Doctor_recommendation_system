@@ -22,10 +22,12 @@ def chat(query_input: QueryInput):
         session_id = str(uuid.uuid4())
         
     chat_history = get_chat_history(session_id)
+    history_limit = 2
+    relevant_history = chat_history[-history_limit:]
     rag_chain = get_rag_chain(query_input.model.value)
     answer = rag_chain.invoke({
         "input": query_input.question,
-        "chat_history": chat_history
+        "chat_history": relevant_history
     })['answer']
     insert_application_logs(session_id, query_input.question, answer, query_input.model.value)
     logging.info(f"Session ID: {session_id}, AI Response: {answer}")
