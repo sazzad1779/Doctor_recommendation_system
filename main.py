@@ -22,7 +22,7 @@ def chat(query_input: QueryInput):
         session_id = str(uuid.uuid4())
         
     chat_history = get_chat_history(session_id)
-    history_limit = 2
+    history_limit = 10
     relevant_history = chat_history[-history_limit:]
     rag_chain = get_rag_chain(query_input.model.value)
     answer = rag_chain.invoke({
