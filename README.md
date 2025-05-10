@@ -1,5 +1,5 @@
 # Doctor_recommendation_system
-(architecture)[asset/architecture.png]
+![architecture](asset/architecture.png)
 ### Technical Features
 
 1. **Langchain-Based Modular Architecture**
