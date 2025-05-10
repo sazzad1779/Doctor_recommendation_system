@@ -109,6 +109,11 @@ This section outlines the key architectural and implementation choices made in t
 * **Rationale:** Caching helps to reduce the number of redundant LLM calls for identical inputs. This is particularly beneficial during the testing phase and in scenarios where users might repeatedly ask for clarification on their symptoms. The caching mechanism is designed to be pluggable, allowing for the adoption of other cache backends if the need arises.
 
 
+### API endpoint
+![Api_end_point](image.png)
+
+
+
 ### Dataset Normalize 
 **1. availability field normalize:**
 ```python

@@ -35,7 +35,7 @@ def chat(query_input: QueryInput):
 
 
 
-@app.post("/upload-doc")
+@app.post("/upload-doc-file")
 def upload_and_index_document(file: UploadFile = File(...)):
     allowed_extensions = ['.pdf', '.docx', '.html','.json']
     file_extension = os.path.splitext(file.filename)[1].lower()
@@ -62,37 +62,37 @@ def upload_and_index_document(file: UploadFile = File(...)):
         if os.path.exists(temp_file_path):
             os.remove(temp_file_path)
 
-@app.post("/upload-doctor")
-def upload_and_index_document(file: UploadFile = File(...)):
-    allowed_extensions = ['.pdf', '.docx', '.html','.json']
-    file_extension = os.path.splitext(file.filename)[1].lower()
+# @app.post("/upload-doctor")
+# def upload_and_index_document(file: UploadFile = File(...)):
+#     allowed_extensions = ['.pdf', '.docx', '.html','.json']
+#     file_extension = os.path.splitext(file.filename)[1].lower()
     
-    if file_extension not in allowed_extensions:
-        raise HTTPException(status_code=400, detail=f"Unsupported file type. Allowed types are: {', '.join(allowed_extensions)}")
+#     if file_extension not in allowed_extensions:
+#         raise HTTPException(status_code=400, detail=f"Unsupported file type. Allowed types are: {', '.join(allowed_extensions)}")
     
-    temp_file_path = f"temp_{file.filename}"
+#     temp_file_path = f"temp_{file.filename}"
     
-    try:
-        # Save the uploaded file to a temporary file
-        with open(temp_file_path, "wb") as buffer:
-            shutil.copyfileobj(file.file, buffer)
+#     try:
+#         # Save the uploaded file to a temporary file
+#         with open(temp_file_path, "wb") as buffer:
+#             shutil.copyfileobj(file.file, buffer)
         
-        file_id = insert_document_record(file.filename)
-        success = index_doctors_to_chroma(temp_file_path, file_id)
+#         file_id = insert_document_record(file.filename)
+#         success = index_doctors_to_chroma(temp_file_path, file_id)
         
-        if success:
-            return {"message": f"File {file.filename} has been successfully uploaded and indexed.", "file_id": file_id}
-        else:
-            delete_document_record(file_id)
-            raise HTTPException(status_code=500, detail=f"Failed to index {file.filename}.")
-    finally:
-        if os.path.exists(temp_file_path):
-            os.remove(temp_file_path)
-@app.get("/list-docs", response_model=list[DocumentInfo])
+#         if success:
+#             return {"message": f"File {file.filename} has been successfully uploaded and indexed.", "file_id": file_id}
+#         else:
+#             delete_document_record(file_id)
+#             raise HTTPException(status_code=500, detail=f"Failed to index {file.filename}.")
+#     finally:
+#         if os.path.exists(temp_file_path):
+#             os.remove(temp_file_path)
+@app.get("/list-doc-file", response_model=list[DocumentInfo])
 def list_documents():
     return get_all_documents()
 
-@app.post("/delete-doc")
+@app.post("/delete-doc-file")
 def delete_document(request: DeleteFileRequest):
     # Delete from Chroma
     chroma_delete_success = delete_doc_from_chroma(request.file_id)
