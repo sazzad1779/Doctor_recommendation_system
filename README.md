@@ -60,6 +60,11 @@ LANGSMITH_PROJECT="Doctor_recommendation_system"
 ```bash
 python main.py
 ```
+
+### 4. **Start UI in another Terminal**
+```bash
+streamlit run ui.py 
+```
 ---
 
 ## 🧠 Explanation of Design Decisions
